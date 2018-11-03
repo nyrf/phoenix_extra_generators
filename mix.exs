@@ -38,7 +38,7 @@ defmodule PhoenixExtraGenerators.MixProject do
 
   defp deps do
     [
-      {:phoenix, "~> 1.3.0"},
+      {:phoenix, "~> 1.3 or ~> 1.4.0-rc"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
